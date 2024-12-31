@@ -101,6 +101,10 @@ public class APITestUsingBDD {
 	  }
 	  
 	  
+	  //response with then()
+	  res.then().log().all();
+	  
+	  res.then().statusCode(200);
 	  
 	  
 	  
