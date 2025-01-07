@@ -93,8 +93,8 @@ public class HotelAPIChaining
   {
 	  //request payload
 	  AuthenticationTest auth=new AuthenticationTest ();
-	  auth.setUsername("admin");
-	  auth.setPassword("password123");
+//	  auth.setUsername("admin");
+//	  auth.setPassword("password123");
 	  
 	  Response res=given()
 	  .header("Content-Type","application/json")
