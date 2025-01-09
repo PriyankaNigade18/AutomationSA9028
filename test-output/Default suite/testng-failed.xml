@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestApplicationScenarios.DragnDropGesture">
+      <class name="com.MobileScenarios.Performanceanalysis">
         <methods>
-          <include name="testGesture"/>
+          <include name="testPerformanceParam"/>
         </methods>
-      </class> <!-- com.TestApplicationScenarios.DragnDropGesture -->
+      </class> <!-- com.MobileScenarios.Performanceanalysis -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -15,7 +15,7 @@ public class DragnDropGesture {
   public void testGesture()
   {
 	  
-	  //craete driver session
+	  //create driver session
 AppiumDriver driver=DriverUtil.initDriver();
 
 //view
